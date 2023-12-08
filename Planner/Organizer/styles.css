@@ -4,37 +4,87 @@ div
     color: black;
     background: white;
 }
-.header {
-    text-align: center;
-    color: black;
-    justify-content: center;
-}
-.topnav {
-    background-color: #333;
+.topnav{ 
+    background-color: #1d2636;
+    max-height: 70px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
+.topnav img {
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: 120px;
+}
+.topnav h3 { 
     color: #f2f2f2;
-    text-align: center;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.navbar {
+    display: flex;
+    margin-left:auto;
+    background-color: #1d2636;
+    margin-right:120px;
+}
+  /* Style the links inside the navigation bar */
+.navbar a {
+    color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-color: #1d2636
   }
-  
   /* Change the color of links on hover */
-  .topnav a:hover {
+.navbar a:hover {
     background-color: #ddd;
     color: black;
   }
-  
   /* Add a color to the active/current link */
-  .topnav a.active {
+.navbar a.active {
     background-color: red;
     color: white;
   }
+  .welcome {
+    display: flex;
+    background: #1d2636;
+  }
+  .intro {
+    display: flex;
+    background: #1d2636;
+    flex-direction: column;
+    color:#ddd; 
+    width: 400px;
+    margin-left: 120px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+  .intro-video {
+    display: flex;
+    background: #1d2636;
+    margin-left: auto;
+    margin-right: 120px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex: 1 1 0 
+  }
+.welcome button{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #0096FF;
+    background-color: #0096FF;
+    color:#ddd;
+    justify-content: center;
+    font-size: 17px;  
+  }
+  .daily-execution {
+    text-align: center;
+}
 .top-container {
     display: flex;
     justify-content: center;
@@ -42,31 +92,106 @@ div
   }
   .top-container div {
     background: white;
-    border: 4px solid red;
+    border: 4px solid #0096FF;
     min-height: 300px;
     flex: 1 1 0%;
     flex-wrap: wrap;
     margin-top: 10px;
+    border-radius: 25px;
   }
   .top-container .two{
-    text-align: center;
+    text-align: center; 
   }
   .gratitude-journal {
     background: rgb(238, 231, 231);
-    border: 4px solid red;
+    border: 4px solid #0096FF;
     min-height: 300px;
     flex: 1 1 0%;
     flex-wrap: wrap;
     gap: 1rem;
+    border-radius: 25px;
+    
   }
   .world-clock{
         background: rgb(238, 231, 231);
-        border: 4px solid red;
+        border: 4px solid #0096FF;
         min-height: 300px;
         flex: 1 1 0%;
         flex-wrap: wrap;
         gap: 1rem;
+        border-radius: 25px;
+        margin-bottom: 50px;
   }
-  h2 { 
+  .one h2 { 
     text-align: center;
+}
+.gratitude-journal h2{
+    text-align: center;
+}
+.world-clock h2{
+    text-align: center;
+}
+.quote {
+    background: lightgray;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote p {
+    font-size: 24px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.cta {
+    background:white;
+    display: flex;
+    justify-content: center; 
+    color: white;
+}
+.cta-box{
+    color: white;
+    background-color: #0096FF;
+    border-radius: 5px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+.cta-box p{
+    font-size: 14px;
+    color: white;
+}
+.call-to-action {
+    background-color: #0096FF;
+    color: white;
+    padding-bottom: 25px;
+}
+.cta button {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #0096FF;
+    color: white;
+    font-size: 17px;
+    margin-left: 100px;
+}
+footer {
+    text-align: center;
+    color: white; 
+    background: #1d2636;
+    height: 75px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
